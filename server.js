@@ -1,3 +1,3 @@
-const message = "I am Dylan, wilder in Loupe , and I love HTML.";
+require("dotenv").config();
 
-console.log(message);
+console.log(`I am ${MY_NAME}, wilder in ${MY_CITY}, and I love ${MY_LANGUAGE}`);
